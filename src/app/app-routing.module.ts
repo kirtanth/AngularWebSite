@@ -1,3 +1,4 @@
+import { ContactusComponent } from './contactus/contactus.component';
 import { ServicesComponent } from './services/services.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
@@ -12,6 +13,8 @@ const routes: Routes = [
     { path : 'signup', component: SignupComponent},
     { path : 'projects', component: ProjectsComponent},
     { path : 'services', component: ServicesComponent},
+    { path : 'contactus', component: ContactusComponent},
+
 ];
 
 @NgModule({
